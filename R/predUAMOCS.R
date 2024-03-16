@@ -171,7 +171,7 @@ id probe class dirct
   #将data的签名基因提取出来
   data <- data[which(rownames(data) %in% cms_data$probe),]
   
-  output <- ntp(data,cms_data)
+  output <- CMScaller:::ntp(data,cms_data)
   
   return(output)
   
