@@ -1,0 +1,6 @@
+install.packages("/HuaYC666/UAMOCS", repos = NULL, type="source")
+
+
+library(devtools)
+install_github("/HuaYC666/UAMOCS")
+
